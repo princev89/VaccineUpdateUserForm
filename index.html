@@ -4,7 +4,18 @@
 <head>
     <title> Vaccine slot Update</title>
     <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 5px 20px;
+            font-size: 100px;
+            background-color: #3c415c;
+        
+        }
+h6{
+    color: cornsilk;
+}
         input {
+            height: 100px;
             width: 100%;
             padding: 12px 20px;
             margin: 8px 0;
@@ -12,17 +23,20 @@
         }
 
         button {
+            font-size: 100px;
             background-color: #4CAF50;
             border: none;
             color: white;
-            padding: 16px 32px;
+            margin: 20px 0;
             text-decoration: none;
-            margin: 4px 2px;
+            width: 100%;
             cursor: pointer;
-            align-items: center;
+
 
         }
-        form{
+
+        form {
+            background-color: aliceblue;
             padding: 10px 40px;
         }
     </style>
@@ -47,7 +61,7 @@
 </head>
 
 <body>
-    <h1>Get Notification when  Vaccine slot is available in your area.</h1>
+    <h6>Get Notification when Vaccine slot is available in your area.</h6>
     <form id="myForm">
         <label>Name</label>
         <input name="full_name" />
@@ -63,7 +77,7 @@
         <br />
     </form>
     <button onclick='SubForm()'>Submit</button>
-    
+
 </body>
 
 </html>
